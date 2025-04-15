@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+
+table {
+	border-collapse:collapse;
+	
+}
+
+td {
+	width:100px;
+	text-align:right;
+	border:2px solid black;
+}
+
+tr td:first-child {
+	text-align:left;
+}
+
+tbody tr:first-child td {
+	background-color:#DA9694;
+	color:white
+}
+tbody tr:nth-child(2) td {
+	background-color:#F2DCDB;
+}
+tbody tr:nth-child(3) td {
+	background-color:#D9D9D9;
+}
+
+th {
+	text-align:left;
+	color:white;
+	background-color:#C0504D;
+	border:2px solid black;
+}
